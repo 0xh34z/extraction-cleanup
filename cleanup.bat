@@ -1,5 +1,5 @@
 @echo off
-set /p TARGET_DIR=Enter the full path of the directory to clean: 
+set "TARGET_DIR=c:\Users\kasper\Documents\GitHub\extraction-cleanup\test-dir"
 if not exist "%TARGET_DIR%" (
     echo Directory not found: %TARGET_DIR%
     exit /b 1

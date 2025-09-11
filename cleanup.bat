@@ -1,5 +1,5 @@
 @echo off
-set "TARGET_DIR=c:\Users\kasper\Documents\GitHub\extraction-cleanup\test-dir"
+set "TARGET_DIR={target_directory}"
 if not exist "%TARGET_DIR%" (
     echo Directory not found: %TARGET_DIR%
     exit /b 1
